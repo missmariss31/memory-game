@@ -1,6 +1,7 @@
 /*
- * Create a list that holds all of your cards
+ * Create a list that holds all cards
  */
+const cards = document.querySelectorAll(".card");
 
 
 /*
@@ -9,6 +10,14 @@
  *   - loop through each card and create its HTML
  *   - add each card's HTML to the page
  */
+
+const shuffleCards = shuffle(cards);
+
+for (const card of shuffleCards) {
+    //create HTML
+}
+
+//add HTML to page
 
 // Shuffle function from http://stackoverflow.com/a/2450976
 function shuffle(array) {
